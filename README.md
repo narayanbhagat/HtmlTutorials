@@ -1,1 +1,0 @@
-I am trying to learn few trics of html and so I created this repository to store all my learning works.
