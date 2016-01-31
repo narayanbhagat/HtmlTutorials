@@ -1,0 +1,143 @@
+body{
+	background-color: #C6C4C4 ;
+}
+.content{
+	background-color: white;
+	height: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	margin-top: 2cm;
+	margin-bottom: 2cm;
+}
+
+#section1{
+	background-color: 	#DCDCDC;
+	width: 100%;
+	height: 1400px;
+
+}
+#section2{
+	width: 100%;
+	height: 1400px;
+}
+#section3{
+	
+	width: 100%;
+	height: 1400px;
+}
+
+.name{
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+.profession{
+	text-align: center;
+	font-color: white;
+	font-size: 20px;
+}
+.contact{
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 30px;
+	
+	border-bottom: 2px solid black;
+	width: 250px;
+
+}
+
+.glyphicon{
+	padding-left: 15px;
+
+}
+.profile{
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 30px;
+	border-bottom: 2px solid black;
+	width: 250px;
+}
+.para{
+	padding-left: 30px;
+	width: 250px;
+    height: 200px;
+	text-align: justify;
+}
+.skills{
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 30px;
+	border-bottom: 2px solid black;
+	width: 250px;
+}
+p.tag{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+.social{
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 30px;
+	border-bottom: 2px solid black;
+	width: 250px;
+}
+
+p.wp_image{
+	padding-left: 30px;
+}
+p.we{
+	padding-top: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+
+}
+.tri_center{
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.c_name{
+	font-weight: bold;
+	padding-left: 20px;
+}
+.tri_right{
+	padding-top: 115px;
+}
+.tri_rightA{
+	padding-top: 55px;
+}
+.tri_rightB{
+	padding-top: 55px;
+}
+.tri_rightC{
+	padding-top: 55px;
+}
+.graphic{
+	font-weight: bold;
+	font-size: 20px;
+}
+span.glyphicon_pad{
+	top: -18px;
+}
+footer{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+.language1{
+	background-color: black;
+	color: white;
+
+
+}
+.language2{
+	background-color: black;
+	color: white;
+	text-align: right;
+}

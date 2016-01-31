@@ -1,0 +1,339 @@
+  @font-face{
+    font-family: "MyriadPro-Regular";
+    src: url('font/MyriadPro-Regular.otf');
+    
+}
+body{
+	font-family: "MyriadPro-Regular";
+	font-size: 20px;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+
+.navbar-default{
+ background-color: black;
+}
+#section1 {padding-top:50px;color: #fff; background-image: url(image/back.png);overflow: hidden;}
+#section2 {padding-top:50px;height: 80%; color: #fff; background-image: url(image/section2.png);}
+
+
+
+
+#section5 {
+          padding-top:50px;
+          height: 110%;
+          color: #fff;
+          background-color: grey;
+          padding-left: 150px;
+ }
+
+#section6 {
+          padding-top:0px;
+          height: 80%;
+          color: #fff; 
+          background-image: url(image/japan.png);
+ }
+
+.navbar-brand{
+  float: left;
+  height: 30px;
+}
+.navbar-brand{
+	padding: 0px 15px;
+}
+#section1{
+	
+}
+
+
+@media screen and (min-width: 480px) {
+  .section1-content{
+     height: 60%;
+  }
+  .form-container{
+    top: 136px;
+  }
+}
+.nopadding{
+  padding: 0px;
+}
+.section1-footer{
+    
+    background: #4590e0;
+    z-index: 1;
+    width: 100%;
+    clear: both;
+    height: auto;
+    opacity: 0.7;
+    padding: 10px 30px;
+
+}
+.section1-content-top-padding{
+	padding-top: 15%;
+}
+.nav-right-padding{
+	padding-right: 4%;
+}
+.section-form-content{
+  height: 100%;
+}
+.form-container{
+	padding: 20px;
+	background: white;
+  z-index: 9999;
+	height: auto;
+	color: black;
+  position: absolute;
+  width: 92%;
+
+}
+
+/*SECTION 2 STARTS HERE*/
+
+h1.section2-header{
+  text-align: center;
+  font-weight: bold;
+  padding-left: 50px;
+  color: black;
+}
+p.centertext{
+  text-align: center;
+  color: black;
+}
+p.centertext2{
+  text-align: center;
+  color: black;
+}
+
+img.rounded{
+    border-radius: 80%;
+    padding-left: 10px;
+    margin: auto;
+}.
+/*END OF SECTION 2*/
+
+h1.section3-header{
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+
+ 
+/*Section 6 starts here */
+
+h1.top-header{
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  padding-top: 150px;
+}
+
+h2.second-top-header{
+  text-align: center;
+  font-size: 30px;
+}
+
+.location-list {
+    padding-left: 8%;
+}
+.location-text {
+    position: absolute;
+    top: 45%;
+    z-index: 9;
+    left: 33%;
+}
+.text-black {
+    color: black;
+}
+.location-image {
+    float: left;
+}
+
+#section3 {
+  
+  height: 80%; 
+  color: #fff; 
+  background-image: url("image/deals-background.png");
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+#section3-shadow{
+  background: rgba(69, 144, 224, 0.3);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.section3-header{
+  padding-top: 50px;
+  text-align: center;
+}
+.deals-block{
+  padding: 10px;
+  margin: 10px;
+  background: white;
+    height: 75%;
+}
+.deals-block-image{
+  width: 100%;
+}
+.deals-block-title{
+  padding-top: 10px;
+  color: black;
+}
+
+.deals-block-label {
+  background: blue;
+  top: 50%;
+  left: 34%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: -20px;
+  line-height:0px;
+}
+p.section3-para{
+  color: black;
+  text-align: center;
+  font-size: 10px;
+}
+p.section3-para2{
+  color: black;
+  text-align: center;
+  font-size: 10px;
+}
+/*end of section 3*/
+#section4 {
+  padding-top:50px;
+  height: auto;
+  color: #fff; 
+  background-color: silver;
+  padding-left: 100px;
+}
+
+
+h1.section4-header{
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    height: 200px;
+} 
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.pic2-text{
+  padding-top: 5px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+
+}
+.section5-header{
+  text-align: center;
+  color: black;
+  font-size: 30;
+  font-weight: bold;
+  padding-right: 250px;
+}
+p.section5-para{
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  padding-right: 200px;
+}
+h1.section5-title{
+  color: blue;
+  padding-top: 30px;
+  font-size: 20px;
+
+}
+
+.section6-content{
+  background-color: white;
+  height: 300px;
+  width: 100%;
+}
+h1.section6-title{
+  color: black;
+  font-size: 30px;
+}
+p.section6-para{
+  color: black;
+  font-size: 20px;
+}
+p.section6-para2{
+  color: black;
+  font-size: 20px;
+}
+.section4-image-text{
+      position: absolute;
+    top: 70px;
+    left: 53px;
+}
+
+footer{
+  text-align: center;
+  color: black;
+  
+}
+hr{
+  height: 5px;
+  border-color: grey;
+}
+#circle_new{
+  width: 50px;
+  height: 50px;
+  background: #0066CC;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 70px;
+}
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+border-radius: 4px;
+border: 2px solid #ccc;
+font-size: 15px;
+}
+input[type=submit]{
+  background-color: blue;
+    border: none;
+    color: white;
+font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+border-radius: 8px;
+}
+#circle {
+  width: 138px;
+  height: 138px;
+  background: #0066CC;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 70px;
+  }
