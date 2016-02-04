@@ -1,0 +1,65 @@
+body{
+	background-color: white;
+	
+}
+.full_content{
+	background-image: url('images/bg_image.jpg');
+	width: 100%;
+	height: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 137px;
+}
+.main_content{
+	background-color: #16A086;
+	height: 1300px;
+
+}
+#circle_meet{
+	width: 170px;
+	height: 170px;
+	background: #138D76;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 85px;
+}
+img{
+	border-radius: 60%;
+	width: 150px;
+	height: 150px;
+}
+.section1{
+	background-color: #16A086;
+	width: 100%;
+}
+.section2{
+	background-color: #16A086;
+	width: 100%;
+}
+#circle_admin{
+	width: 170px;
+	height: 170px;
+	background: #138D76;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 85px;
+}
+#circle_m_app{
+	width: 170px;
+	height: 170px;
+	background: #138D76;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 85px;
+}
+#circle_advt{
+	width: 170px;
+	height: 170px;
+	background: #138D76;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 85px;
+}
+.line-segment{
+	height: 150px;
+}
