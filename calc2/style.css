@@ -1,0 +1,13 @@
+body{
+	background-color: gray;
+}
+.result{
+	background-color: white;
+	width: 400px;
+	height: 50px;
+}
+.btn_key{
+	background-color: white;
+	width: 400px;
+	height: 250px;
+}
