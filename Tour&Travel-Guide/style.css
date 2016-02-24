@@ -15,7 +15,7 @@ body{
  background-color: black;
 }
 #section1 {padding-top:50px;color: #fff; background-image: url(image/back.png);overflow: hidden;}
-#section2 {padding-top:50px;height: 80%; color: #fff; background-image: url(image/section2.png);}
+#section2 {padding-top:50px;height: auto; color: black; background-image: url(image/section2.png);}
 
 
 
@@ -30,7 +30,7 @@ body{
 
 #section6 {
           padding-top:0px;
-          height: 80%;
+          height: auto;
           color: #fff; 
           background-image: url(image/japan.png);
  }
@@ -52,7 +52,7 @@ body{
      height: 60%;
   }
   .form-container{
-    top: 136px;
+    top: 0px;
   }
 }
 .nopadding{
@@ -152,9 +152,7 @@ h2.second-top-header{
     float: left;
 }
 
-#section3 {
-  
-  height: 80%; 
+#section3 { 
   color: #fff; 
   background-image: url("image/deals-background.png");
   background-size: cover; 
@@ -162,7 +160,6 @@ h2.second-top-header{
 }
 #section3-shadow{
   background: rgba(69, 144, 224, 0.3);
-  height: 100%;
   width: 100%;
   overflow: hidden;
 }
@@ -174,7 +171,6 @@ h2.second-top-header{
   padding: 10px;
   margin: 10px;
   background: white;
-    height: 75%;
 }
 .deals-block-image{
   width: 100%;
@@ -271,7 +267,7 @@ h1.section5-title{
 
 .section6-content{
   background-color: white;
-  height: 300px;
+  height: auto;
   width: 100%;
 }
 h1.section6-title{
@@ -337,3 +333,24 @@ border-radius: 8px;
   -webkit-border-radius: 50px;
   border-radius: 70px;
   }
+.title{
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a.back-to-top {
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  background: #2750AE url("image/up-arrow.png") no-repeat center 43%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+a:focus {
+    outline: none;}
